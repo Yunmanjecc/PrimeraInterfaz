@@ -7,18 +7,18 @@
     tools:context=".Pantalla_Configurar">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bttnNuevoColor"
         android:layout_width="160dp"
         android:layout_height="140dp"
-        android:text="Button"
+        android:text="Nuevo color"
         tools:layout_editor_absoluteX="125dp"
         tools:layout_editor_absoluteY="118dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/bttnColoresGuardados"
         android:layout_width="160dp"
         android:layout_height="140dp"
-        android:text="Button"
+        android:text="Ver colores guardados"
         tools:layout_editor_absoluteX="125dp"
         tools:layout_editor_absoluteY="416dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
