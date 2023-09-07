@@ -14,13 +14,16 @@
         android:theme="@style/Theme.PrimeraInterfaz"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".Pantalla_Configurar"
             android:exported="false" />
         <activity
             android:name=".PantallaDefinirDaltonismo"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,5 +32,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
