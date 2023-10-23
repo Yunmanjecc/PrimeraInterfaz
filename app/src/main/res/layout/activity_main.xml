@@ -4,63 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/bttnConectar"
-        android:layout_width="160dp"
-        android:layout_height="140dp"
-        android:background="@drawable/hexagono"
-        android:text="Conectar dispositivo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.76"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.862" />
-
-    <Button
-        android:id="@+id/bttnCamara"
-        android:layout_width="160dp"
-        android:layout_height="140dp"
-        android:background="@drawable/hexagono"
-        android:text="Abrir cámara"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.243"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626" />
-
-    <Button
-        android:id="@+id/bttnConfigurar"
-        android:layout_width="160dp"
-        android:layout_height="140dp"
-        android:background="@drawable/hexagono"
-        android:text="Asignar texto a colores"
-        android:textAlignment="center"
-        android:textIsSelectable="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.76"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.389" />
-
-    <Button
         android:id="@+id/bttnDaltonismo"
-        android:layout_width="160dp"
-        android:layout_height="140dp"
-        android:background="@drawable/hexagono"
-        android:backgroundTint="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#FFFFFF"
         android:backgroundTintMode="src_over"
         android:hapticFeedbackEnabled="false"
         android:text="Definir daltonismo"
+        android:textColor="#000000"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.100" />
 
+    <Button
+        android:id="@+id/bttnConfigurar"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Asignar texto a colores"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.300" />
+
+    <Button
+        android:id="@+id/bttnConectar"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Conectar dispositivo"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.500" />
+
+    <Button
+        android:id="@+id/bttnMapa"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Ubicación actual"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.700" />
 </androidx.constraintlayout.widget.ConstraintLayout>
